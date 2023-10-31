@@ -37,9 +37,10 @@ main{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 10px;
-    height: 30vh;
+    margin: 40px 10px 10px;
     border: 1px solid red;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 .card{
@@ -52,9 +53,7 @@ main{
     margin: 10px;
     /* border: 1px solid black; */
     border-radius: 20px;
-    overflow: hidden;
     box-shadow: 4px 4px 12px #aaa;
-    transition: 0.5s;
 }
 
 .card h1{
@@ -79,7 +78,7 @@ main{
 
 .container-tabela{
     margin: 10px;
-    height: 70vh;
+    height: 70%;
     border: 1px solid blue;
 }
 
