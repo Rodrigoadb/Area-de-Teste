@@ -1,11 +1,8 @@
-import Container from "./componentes/container";
+import Container from "./componentes/Card/container";
 
 function App() {
   return (
     <>
-    <div>
-      <p>Administrador</p>
-    </div>
     <Container></Container>
     </>
   );

@@ -51,7 +51,6 @@ main{
     height: 145px;
     background-color: #FFF;
     margin: 10px;
-    /* border: 1px solid black; */
     border-radius: 20px;
     box-shadow: 4px 4px 12px #aaa;
 }
